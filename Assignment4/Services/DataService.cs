@@ -5,11 +5,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using Assignment4.Tests;
+using DatabaseService.Service;
 using Microsoft.EntityFrameworkCore;
 
 namespace Assignment4
 {
-    public class DataService
+    public class DataService : IDataService
     {
         public int NextId()
         {
